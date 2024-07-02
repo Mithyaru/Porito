@@ -1,0 +1,58 @@
+.rankedDiv {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.RankContainer {
+    color: #fff;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .ranked {
+    width: 100%;
+  }
+
+  .ActualRank {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1c1c1f;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 10px;
+  }
+
+  .Fila {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .Elo {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: start;
+    gap: 30px;
+  }
+
+  .RankImg {
+    border-radius: 50%;
+    padding: 0 8px;
+    background-color: #2c2c30;
+  }
+
+  .RankImg img {
+    margin-top: 12px;
+  }

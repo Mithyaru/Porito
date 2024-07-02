@@ -1,0 +1,39 @@
+.champStats {
+    display: flex;
+    flex-direction: column;
+    background-color: #31313c;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.champStats h3 {
+    color: #fff;
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    font-size: 14px;
+}
+
+.columnChampInfo {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #000;
+    font-size: 12px;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+}
+
+.columnChampInfoInfo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+.columnChampInfo img {
+    border-radius: 50%;
+
+}
+

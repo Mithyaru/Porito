@@ -1,0 +1,214 @@
+.ContainerHistorico {
+    display: flex;
+  flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+
+}
+
+.ContainerPartidas {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.Vitoria {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: rgb(83, 131, 232, 0.2);
+  border-radius: 10px;
+  width: 95%;
+}
+
+.hatsuneMiku {
+  display: flex;
+  align-items: end;
+  opacity: 0.045;
+}
+
+.noHatsuneMiku img{
+  opacity: 0;
+}
+
+
+.Derrota {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+  background-color: rgb(201, 50, 50, 0.2);
+  border-radius: 10px;
+  width: 95%;
+}
+
+.partidaStat {
+  display: flex;
+  column-gap: 50px;
+  width: 100%;
+}
+
+.partidaStat span {
+  display: flex;
+  align-items: center;
+}
+
+.Individual {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.IndividualStat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Times {
+  display: flex;
+  column-gap: 50px;
+  width: 65%;
+  font-size: 12px;
+}
+
+.TimeAzul {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.TimeVerm {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 100%;
+}
+
+.timeAzulTitle {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(83, 131, 232);
+}
+
+.timeVermTitle {
+  display: flex;
+  align-items: start;
+  justify-content: start;
+  font-size: 12px;
+  font-weight: 800;
+  color: rgb(201, 50, 50);
+}
+
+.playersStats {
+  display: flex;
+  gap: 25px;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.playerPrinp {
+  display: flex;
+  justify-content: start;
+  gap: 5px;
+}
+
+.playerPrinp img {
+  border-radius: 50%;
+}
+
+.playerPrinp span {
+  display: flex;
+  text-wrap: nowrap;
+}
+
+.champGameLvl {
+background-color: rgb(0, 0, 0, 0.30);
+border-radius: 10px;
+    padding: 0 8px;
+    vertical-align: middle;
+    margin-top: -12px;
+    font-size: 10px;
+}
+
+.partidaStat {
+  display: flex;
+  flex-direction: column;
+}
+
+.playerItens {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+}
+
+.playerItensData {
+  display: none;
+}
+
+.playerItens img {
+  border-radius: 5px;
+  background-color: rgb(0, 0, 0, 0.30);
+}
+
+.indChamStat {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 5px;
+}
+
+.indChamStat div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.champStatData div{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  justify-content: start;
+}
+
+
+.KDA {
+  color: rgb(83, 131, 232);
+}
+
+.kdaText {
+  color: #fff;
+  padding-right: 5px;
+}
+
+.deaths {
+  color: rgb(201, 50, 50);
+  padding: 0 3px;
+}
+
+.titleVitoria {
+  color: rgb(83, 131, 232);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+.titleDerrota {
+  color: rgb(201, 50, 50);
+  font-weight: 800;
+  text-transform: uppercase;
+}
+

@@ -1,0 +1,101 @@
+.MaestryData {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #31313c;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.HeaderContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.Header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Header h3 {
+  margin: 0;
+  font-size: 14px;
+  border-bottom: 1px solid #000;
+}
+
+.containerMaestria{
+    display: flex;
+    padding-bottom: 80px;
+    padding-top: 20px;
+    width: 100%;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+  }
+
+  .InfoContainer {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+  }
+  
+  .maestria {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+  }
+
+  .maestryImg {
+    border-radius: 50%;
+  }
+
+  .maestryIcon {
+    display: flex;
+    flex-direction: column;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .maestryLevel {
+    justify-content: center;
+    width: 25%;
+    background-color: rgb(0, 0, 0, 0.50);
+    border-radius: 10px;
+    padding: 0 8px;
+    vertical-align: middle;
+    margin-top: -8px;
+    font-size: 9px;
+  }
+
+  .maestryName {
+    width: 100%;
+    border-bottom: 1px solid #000;
+  }
+
+  .maestryPoints {
+    padding-top: 25px;
+  }

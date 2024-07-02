@@ -1,0 +1,82 @@
+.statsContainer {
+    display: flex;
+}
+
+.avgChampStats {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.userStats {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avgStats {
+    display: flex;
+    flex-direction: column;
+}
+
+.avgStatsStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.wrChampStats {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.columnChart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.donutChart {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.champInfoStats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: 12px;
+}
+
+.champInfoStats img {
+    border-radius: 50%;
+}
+
+.champInfoStats div {
+    display: flex;
+    align-items: start;
+    width: 40%;
+    margin-left: 35px;
+}
+
+.laneGraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.laneGraph h3{
+    padding-left: 15px;
+}
+
+
+
